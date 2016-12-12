@@ -57,4 +57,8 @@
     <name>North Dakota State University</name>
     <url>https://www.ndsu.edu/vpit</url>
   </organization>
+  <scm>
+    <developerConnection>scm:git:https://github.com/NDSU-Information-Technology/cas-statsd.git</developerConnection>
+    <url>https://github.com/NDSU-Information-Technology/cas-statsd</url>
+  </scm>
 </project>
