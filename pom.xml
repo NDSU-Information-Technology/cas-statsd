@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.ndsu.eci.cas</groupId>
   <artifactId>cas-statsd</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <properties>
-    <cas.version>5.0.0</cas.version>
+    <cas.version>5.0.2</cas.version>
   </properties>
   <dependencies>
     <dependency>
@@ -58,7 +58,8 @@
     <url>https://www.ndsu.edu/vpit</url>
   </organization>
   <scm>
-    <developerConnection>scm:git:https://github.com/NDSU-Information-Technology/cas-statsd.git</developerConnection>
+    <developerConnection>scm:git:git://github.com/NDSU-Information-Technology/cas-statsd.git</developerConnection>
     <url>https://github.com/NDSU-Information-Technology/cas-statsd</url>
+    <connection>scm:git:git://github.com/NDSU-Information-Technology/cas-statsd.git</connection>
   </scm>
 </project>
