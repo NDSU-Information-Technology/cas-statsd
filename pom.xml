@@ -58,8 +58,8 @@
     <url>https://www.ndsu.edu/vpit</url>
   </organization>
   <scm>
-    <developerConnection>scm:git:git://github.com/NDSU-Information-Technology/cas-statsd.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/NDSU-Information-Technology/cas-statsd.git</developerConnection>
     <url>https://github.com/NDSU-Information-Technology/cas-statsd</url>
-    <connection>scm:git:git://github.com/NDSU-Information-Technology/cas-statsd.git</connection>
+    <connection>scm:git:https://github.com/NDSU-Information-Technology/cas-statsd.git</connection>
   </scm>
 </project>
