@@ -52,7 +52,10 @@
     </pluginManagement>
   </build>
   <name>NDSU CAS StatsD Reporting</name>
-  <description>Reports CAS audit events to StatsD as counters</description>
+  <description>Reports CAS audit events to StatsD as counters
+
+Needs to be updated due to configuration changes in 5.1.0
+https://apereo.github.io/2016/12/23/51rc1/#internal-auto-configuration-1</description>
   <organization>
     <name>North Dakota State University</name>
     <url>https://www.ndsu.edu/vpit</url>
