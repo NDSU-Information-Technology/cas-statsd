@@ -4,7 +4,7 @@
   <artifactId>cas-statsd</artifactId>
   <version>1.0.3-SNAPSHOT</version>
   <properties>
-    <cas.version>5.0.2</cas.version>
+    <cas.version>5.1.0</cas.version>
   </properties>
   <dependencies>
     <dependency>

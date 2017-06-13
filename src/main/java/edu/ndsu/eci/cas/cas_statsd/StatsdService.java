@@ -23,7 +23,7 @@ import java.net.UnknownHostException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apereo.cas.support.events.CasAuditActionContextRecordedEvent;
+import org.apereo.cas.support.events.audit.CasAuditActionContextRecordedEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.event.EventListener;
