@@ -41,7 +41,7 @@ public class StatsdService {
   private StatsdConfiguration config;
 
   /** pattern to find mfa actions */
-  private Pattern mfaPattern = Pattern.compile("^.*: \\[org\\.apereo\\..*\\.(.*)@.*\\[.*\\]\\]");
+  private Pattern mfaPattern = Pattern.compile("signedDuoResponse|mfa-duo");
   
   /** statsd host */
   private InetAddress host;
@@ -71,13 +71,13 @@ public class StatsdService {
     String message = config.getPrefix() + event.getAuditActionContext().getActionPerformed().toLowerCase();
     
     Matcher matcher = mfaPattern.matcher(event.getAuditActionContext().getResourceOperatedUpon());
-    if (matcher.matches()) {
-      message += "_" + matcher.group(1).toLowerCase();
-      
+
+    if (matcher.find()) {
+      message += "_" + "duo";      
     }
     
     message += ":1|c";
-    
+
     byte[] bdata = message.getBytes();
     try {
       sock.send(new DatagramPacket(bdata, bdata.length, host, config.getPort()));
